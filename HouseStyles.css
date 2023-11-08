@@ -33,11 +33,11 @@ html body {
 /*--- FONTS ---*/
 @font-face {
     font-family: 'typo draft demo';
-    src: url('fonts/typo_draft/typo draft demo.otf') format('opentype');
+    src: url('FONTS/typo_draft/Typo\ Draft\ Demo.otf') format('opentype');
 }
 @font-face {
     font-family: 'nexa-heavy';
-    src: url('fonts/nexa/nexa-heavy.ttf') format('truetype');
+    src: url('FONTS/nexa/Nexa-Heavy.ttf') format('truetype');
 }
 /*-------------*/
 h1 {
