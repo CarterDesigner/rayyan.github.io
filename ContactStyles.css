@@ -192,6 +192,7 @@
                         align-items: center;
                         justify-content: center;
                         margin-left: 10px;
+                        text-align: center;
                     }
                         .social-links .socials-grid .social-card .social-link a .social-txt span {
                             font-family: 'nexa-heavy';
