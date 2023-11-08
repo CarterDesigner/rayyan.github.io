@@ -26,7 +26,7 @@
         width: 0;
     }
     to {
-        width: calc(50% - 100px);
+        width: calc(50% - 60px);
     }
 }
     .scroll-bar span {
@@ -81,7 +81,7 @@
         z-index: 1;
     }
         .hero .hero-container .hero-opening {
-            width: 80vw;
+            width: 100vw;
             height: 45vh;
             display: flex;
             flex-direction: column;
