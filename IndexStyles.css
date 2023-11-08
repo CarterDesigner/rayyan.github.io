@@ -884,3 +884,8 @@
         }
     }
 }
+@media screen and (max-width: 500px) {
+    .scroll-bar {
+        top: calc(100vh - 150px);
+    }
+}
