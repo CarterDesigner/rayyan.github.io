@@ -20,7 +20,7 @@
         .services .services-container .offer-card {
             width: 90vw;
             max-width: 475px;
-            aspect-ratio: 1/1.2;
+            aspect-ratio: 1/1.4;
             background: linear-gradient(to bottom right, #006400, #9ef01a);
             padding: 2px;
             display: flex;
@@ -28,6 +28,7 @@
             justify-content: center;
             margin-top: 20px;
             border-radius: 20px;
+            text-align: center;
         }
             .services .services-container .offer-card .offer-card-content {
                 width: 100%;
