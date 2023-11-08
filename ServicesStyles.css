@@ -1,0 +1,128 @@
+﻿.logo-title {
+    display: none;
+}
+.services {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .services .services-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+        .services .services-container .offer-card {
+            width: 475px;
+            aspect-ratio: 1/1.2;
+            background: linear-gradient(to bottom right, #006400, #9ef01a);
+            padding: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            border-radius: 20px;
+        }
+            .services .services-container .offer-card .offer-card-content {
+                width: 100%;
+                height: 100%;
+                background-color: #1f1f1f;
+                border-radius: 18px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+                .services .services-container .offer-card .offer-card-content .offer-image {
+                    height: auto;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .services .services-container .offer-card .offer-card-content .offer-image img {
+                        width: 60%;
+                        aspect-ratio: 1;
+                    }
+                .services .services-container .offer-card .offer-card-content .offer-text {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 25px 0 25px;
+                }
+                    .services .services-container .offer-card .offer-card-content .offer-text .offer-name {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: auto;
+                        height: auto;
+                    }
+                        .services .services-container .offer-card .offer-card-content .offer-text .offer-name h1 {
+                            color: #9ef01a;
+                            font-family: 'nexa-heavy';
+                            font-size: 40px;
+                        }
+                    .services .services-container .offer-card .offer-card-content .offer-text .offer-desc {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 80%;
+                        height: auto;
+                        text-align: center;
+                    }
+                        .services .services-container .offer-card .offer-card-content .offer-text .offer-desc span {
+                            color: white;
+                            font-family: sans-serif;
+                            font-size: 19px;
+                        }
+                    .services .services-container .offer-card .offer-card-content .offer-text a {
+                        width: 200px;
+                        padding: 8px 10px 8px 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        background-color: #007200;
+                        text-decoration: none;
+                        border-radius: 10px;
+                        margin-top: 20px;
+                    }
+                        .services .services-container .offer-card .offer-card-content .offer-text a:hover {
+                            background-color: #007d00;
+                        }
+                        .services .services-container .offer-card .offer-card-content .offer-text a span {
+                            color: white;
+                            font-family: sans-serif;
+                            text-align: center;
+                        }
+                        .services .services-container .offer-card .offer-card-content .offer-text a div {
+                            border-left: solid 1px #000000;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 0 5px 0 5px;
+                        }
+@media screen and (min-width: 1000px) {
+    .services .services-container {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+        .services .services-container .offer-card {
+            opacity: 0.7;
+            transition: 0.2s ease-out;
+        }
+            .services .services-container .offer-card:hover {
+                opacity: 1.0;
+                transition: 0.2s ease-out;
+            }
+    .logo-title {
+        display: flex;
+    }
+}
+                        

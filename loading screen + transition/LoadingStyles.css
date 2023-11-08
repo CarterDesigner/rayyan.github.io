@@ -1,0 +1,82 @@
+﻿html {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #171717;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loading-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .loading-container .loading-animation {
+        height: 200px;
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .loading-container .loading-animation img {
+            height: 100%;
+            aspect-ratio: initial;
+            border-radius: 100%;
+            animation: loadSpin 5s linear infinite;
+            box-shadow: 0 0 20px #9ef01a;
+        }
+    .loading-container .loading-animation-2 { 
+        height: 60px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0 0 0;
+    }
+        .loading-container .loading-animation-2 .loading-dot {
+            height: 100%;
+            aspect-ratio: 1;
+            border-radius: 100%;
+            animation: loadPulse 3s ease-in-out infinite;
+            transform: scale(0);
+        }
+        .loading-container .loading-animation-2 .dot1 {
+            animation-delay: 0;
+            background-color: #008000;
+        }
+        .loading-container .loading-animation-2 .dot2 {
+            animation-delay: 0.4s;
+            background-color: #9ef01a;
+        }
+        .loading-container .loading-animation-2 .dot3 {
+            animation-delay: 0.8s;
+            background-color: #008000;
+        }
+@keyframes loadSpin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes loadPulse {
+    from {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+    }
+}
