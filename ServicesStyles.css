@@ -128,4 +128,8 @@
         display: flex;
     }
 }
-                        
+@media screen and (max-width: 500px) {
+    .card-2 {
+        height: calc(initial + 50px);
+    }
+}
