@@ -129,7 +129,7 @@
     }
 }
 @media screen and (max-width: 500px) {
-    .card-2 {
+    .services .services-container .offer-card {
         height: calc(initial + 100px);
     }
 }
