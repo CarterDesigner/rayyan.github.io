@@ -31,9 +31,9 @@ html body {
     border-radius: 50px;
 }
 /*--- FONTS ---*/
-@font-face {
-    font-family: nexa-heavy;
-    src: url(FONTS/nexa/Nexa-Heavy.tff);
+@@font-face {
+    font-family: 'nexa-heavy';
+    src: url('FONTS/nexa/Nexa-Heavy.ttf') format('truetype');
 }
 /*-------------*/
 h1 {
