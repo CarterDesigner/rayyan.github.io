@@ -68,6 +68,7 @@
                         background-color: #70e000;
                         position: absolute;
                         z-index: -2;
+                        display: none;
                     }
                     .about-content .about-container .about-section .about-section-content .about-section-image .about-image-blur {
                         width: 100%;
@@ -143,5 +144,8 @@
     }
     .about-content .about-container .about-section .about-section-content .about-section-text span {
         font-size: 24px;
+    }
+    .about-content .about-container .about-section .about-section-content .about-section-image .about-image-glow {
+        display: flex;
     }
 }
