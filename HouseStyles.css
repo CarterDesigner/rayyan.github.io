@@ -13,6 +13,7 @@ html body {
     padding: 0;
     overflow-x: hidden;
     font-family: nexa-heavy;
+    position: relative;
 }
 ::-webkit-scrollbar {
     position: absolute;
