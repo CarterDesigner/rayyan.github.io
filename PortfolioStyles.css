@@ -300,8 +300,13 @@
                 justify-content: center;
                 background-color: black;
             }
+            .portfolio-content .portfolio-container .reviews .reviews-container .reviews-gallery .review-item img {
+                width: 100vw;
+                max-width: 500px;
+                aspect-ratio: initial;
+            }
                 .portfolio-content .portfolio-container .reviews .reviews-container .reviews-gallery .review-item .graph {
-                    height: 175px;
+                    width: 
                     aspect-ratio: initial;
                     border-radius: 10px;
                 }

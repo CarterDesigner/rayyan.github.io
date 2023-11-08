@@ -15,9 +15,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 110px;
     }
         .services .services-container .offer-card {
-            width: 475px;
+            width: 90vw;
+            max-width: 475px;
             aspect-ratio: 1/1.2;
             background: linear-gradient(to bottom right, #006400, #9ef01a);
             padding: 2px;
