@@ -12,6 +12,7 @@ html body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: nexa-heavy;
 }
 ::-webkit-scrollbar {
     position: absolute;
@@ -31,7 +32,7 @@ html body {
     border-radius: 50px;
 }
 /*--- FONTS ---*/
-@@font-face {
+@font-face {
     font-family: 'nexa-heavy';
     src: url('FONTS/nexa/Nexa-Heavy.ttf') format('truetype');
 }
