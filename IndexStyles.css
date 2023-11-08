@@ -736,7 +736,8 @@
                 font-size: 22px;
             }
         .faq .faq-container .questions {
-            width: 450px;
+            width: 90vw;
+            max-width: 450px;
             height: auto;
             display: flex;
             align-items: center;

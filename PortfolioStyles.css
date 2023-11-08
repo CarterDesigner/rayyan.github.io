@@ -306,7 +306,9 @@
                 aspect-ratio: initial;
             }
                 .portfolio-content .portfolio-container .reviews .reviews-container .reviews-gallery .review-item .graph {
-                    width: 
+                    height: auto;
+                    width: 50vw;
+                    max-width: 350px;
                     aspect-ratio: initial;
                     border-radius: 10px;
                 }
