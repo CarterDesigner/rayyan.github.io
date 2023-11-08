@@ -132,7 +132,7 @@
                         text-decoration: none;
                         font-family: 'nexa-heavy';
                         border-radius: 10px;
-                        font-size: 29px;
+                        font-size: 23px;
                         box-shadow: 0 0 10px #ffff3f;
                         transition: 0.2s ease-in-out;
                     }
@@ -160,7 +160,7 @@
                         text-decoration: none;
                         font-family: 'nexa-heavy';
                         border-radius: 10px;
-                        font-size: 29px;
+                        font-size: 23px;
                         box-shadow: 0 0 10px #ffff3f;
                         transition: 0.2s ease-in-out;
                     }
@@ -832,6 +832,7 @@
         }
         .hero .hero-container .hero-opening .hero-opening-links {
             width: 100%;
+            justify-content: space-evenly;
         }
     .stages .stages-container {
         flex-direction: row;
