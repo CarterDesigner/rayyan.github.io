@@ -820,6 +820,7 @@
 @media screen and (min-width: 1000px) {
     .hero .hero-container .hero-opening {
         margin-top: 17%;
+        width: 80vw;
     }
     .hero .hero-container .hero-opening .hero-opening-title h1 {
         font-size: 55px;
