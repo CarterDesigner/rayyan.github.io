@@ -179,7 +179,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-color: #161616;
 }
     .testimonials .testimonials-container {
@@ -199,7 +199,7 @@
             overflow-x: hidden;
             opacity: 0;
             transition: opacity 0.7s ease-out;
-            margin-bottom: 200px;
+            margin-bottom: 50px;
         }
 
             .testimonials .testimonials-container .TR-clients .TR-clients-scroll {
