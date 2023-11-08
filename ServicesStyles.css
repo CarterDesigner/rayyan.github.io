@@ -31,13 +31,14 @@
             text-align: center;
         }
             .services .services-container .offer-card .offer-card-content {
-                width: 90vw;
+                width: 100%;
                 height: 100%;
                 background-color: #1f1f1f;
                 border-radius: 18px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                padding-bottom: 20px;
             }
                 .services .services-container .offer-card .offer-card-content .offer-image {
                     height: auto;
