@@ -141,14 +141,10 @@
     .social-links .socials-grid {
         width: 100%;
         height: auto;
-        display: grid;
-        grid-template:
-            '.'
-            '.'
-            '.'
-            /auto;
-        row-gap: 5px;
-        column-gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
         .social-links .socials-grid .social-card {
             width: auto;
