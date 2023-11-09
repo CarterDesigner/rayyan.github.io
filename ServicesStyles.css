@@ -129,7 +129,7 @@
     }
 }
 @media screen and (max-width: 500px) {
-    .services .services-container .card-2 {
+    .services .services-container .card-2 .offer-card-content {
         padding-bottom: 100px;
     }
 }
