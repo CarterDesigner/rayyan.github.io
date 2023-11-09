@@ -107,7 +107,7 @@ img {
     width: 100vw;
     height: 55vh;
     position: fixed;
-    z-index: 4;
+    z-index: 6;
     background: linear-gradient(to bottom, black, black, black, black, black, black, transparent);
     transform: translateY(-55vh);
     transition: transform 0.7s ease-in-out;
@@ -170,7 +170,7 @@ img {
     align-items: center;
     justify-content: center;
     position: fixed;
-    z-index: 5;
+    z-index: 7;
     transition: background 0.3s ease-in-out;
     pointer-events: none;
 }

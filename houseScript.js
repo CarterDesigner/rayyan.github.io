@@ -31,17 +31,37 @@ const dropMenuButtonLine2 = document.querySelector('.drop-menu-line2');
 const dropMenuButtonLine3 = document.querySelector('.drop-menu-line3');
 const dropMenu = document.querySelector('.drop-navigation');
 const navigation = document.querySelector('.navigation');
+const dropOptions = document.querySelectorAll('.drop-option');
 const dropOption1 = document.querySelector('.drop-option1');
 const dropOption2 = document.querySelector('.drop-option2');
 const dropOption3 = document.querySelector('.drop-option3');
 const dropOption4 = document.querySelector('.drop-option4');
 const dropOption5 = document.querySelector('.drop-option5');
+const dropOption6 = document.querySelector('.drop-option6');
 dropMenuButton.addEventListener('click', () => {
     dropMenu.classList.toggle('drop-menu-displayed');
     navigation.classList.toggle('nav-background-none');
     dropMenuButtonLine1.classList.toggle('button-line-rotatedXLEFT');
     dropMenuButtonLine3.classList.toggle('button-line-rotatedXRIGHT');
     dropMenuButtonLine2.classList.toggle('button-line-hidden');
+});
+dropOption1.addEventListener('click', () => {
+    dropMenu.classList.remove('drop-menu-displayed');
+});
+dropOption2.addEventListener('click', () => {
+    dropMenu.classList.remove('drop-menu-displayed');
+});
+dropOption3.addEventListener('click', () => {
+    dropMenu.classList.remove('drop-menu-displayed');
+});
+dropOption4.addEventListener('click', () => {
+    dropMenu.classList.remove('drop-menu-displayed');
+});
+dropOption5.addEventListener('click', () => {
+    dropMenu.classList.remove('drop-menu-displayed');
+});
+dropOption6.addEventListener('click', () => {
+    dropMenu.classList.remove('drop-menu-displayed');
 });
 
 //button animations
