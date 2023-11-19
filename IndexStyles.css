@@ -554,6 +554,8 @@
                 color: #9ef01a;
                 font-family: 'nexa-heavy';
                 font-size: 22px;
+                text-align: center;
+                width: 70vw;
             }
         .top-project .top-project-container .top-project-card {
             width: 100%;
