@@ -12,7 +12,7 @@ html body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: nexa-heavy;
+    font-family: sans-serif;
     position: relative;
 }
 ::-webkit-scrollbar {
@@ -33,10 +33,7 @@ html body {
     border-radius: 50px;
 }
 /*--- FONTS ---*/
-@font-face {
-    font-family: 'nexa-heavy';
-    src: url('FONTS/nexa/Nexa-Heavy.ttf') format('truetype');
-}
+
 /*-------------*/
 h1 {
     text-shadow: 0 0 7px black;
@@ -130,7 +127,7 @@ img {
         }
             .drop-navigation .drop-navigation-container .drop-navigation-options .drop-option {
                 color: white;
-                font-family: nexa-heavy;
+                font-family: sans-serif;
                 text-decoration: none;
                 font-size: 22px;
                 margin: 5px 0 5px 0;
@@ -340,7 +337,7 @@ img {
                 }
                     .footer .footer-container .footer-logo-desc .footer-desc span {
                         color: white;
-                        font-family: 'nexa-heavy';
+                        font-family: sans-serif;
                         font-size: 18px;
                         text-align: center;
                     }
@@ -369,7 +366,8 @@ img {
                 }
                 .footer .footer-container .footer-contact a span {
                     color: black;
-                    font-family: nexa-heavy;
+                    font-family: sans-serif;
+                    font-weight: 700;
                     font-size: 18px;
                 }
         .footer .footer-container .footer-social-links {
@@ -387,7 +385,8 @@ img {
                 display: flex;
             }
                 .footer .footer-container .footer-social-links .footer-socials-title span {
-                    font-family: nexa-heavy;
+                    font-family: sans-serif;
+                    font-weight: 700;
                     color: #38b000;
                     font-size: 19px;
                 }
@@ -401,7 +400,7 @@ img {
                     text-decoration: none;
                     color: white;
                     font-size: 20px;
-                    font-family: nexa-heavy;
+                    font-family: sans-serif;
                     display: flex;
                     flex-direction: row;
                     justify-content: left;

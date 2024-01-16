@@ -30,7 +30,7 @@
                 justify-content: center;
             }
                 .contact .contact-container .form .form-title h1 {
-                    font-family: 'nexa-heavy';
+                    font-family: sans-serif;
                     text-align: center;
                     color: #ccff33;
                 }
@@ -62,7 +62,7 @@
                     }
                         .contact .contact-container .form form .form-grid .form-input span {
                             color: #9ef01a;
-                            font-family: 'nexa-heavy';
+                            font-family: sans-serif;
                             font-size: 18px;
                             margin: 7px 0 7px 0;
                         }
@@ -108,7 +108,7 @@
                         height: auto;
                         background: #007200;
                         border-radius: 10px;
-                        font-family: 'nexa-heavy';
+                        font-family: sans-serif;
                         font-size: 18px;
                         color: white;
                         padding: 3px 8px 3px 8px;
@@ -134,7 +134,7 @@
         justify-content: center;
     }
         .social-links .social-links-title h1 {
-            font-family: 'nexa-heavy';
+            font-family: sans-serif;
             color: #ccff33;
             text-align: center;
         }
@@ -191,7 +191,7 @@
                         text-align: center;
                     }
                         .social-links .socials-grid .social-card .social-link a .social-txt span {
-                            font-family: 'nexa-heavy';
+                            font-family: sans-serif;
                             font-size: 25px;
                             color: white;
                         }
